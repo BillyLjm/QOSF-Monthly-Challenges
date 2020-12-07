@@ -8,4 +8,6 @@ And the solutions are coded in `qosf-monthly-challenge-xx.ipynb` in the folders.
 There are also html copies of the jupyter notebooks for easier reference.  
 
 ## Topics  
-`challenge-01` - Nov 2020 - Diagonal Unitary Circuit Composer  
+| Challenge      | Date     | Topic                             |
+|:--------------:|:--------:|:---------------------------------:|
+| `challenge-01` | Nov 2020 | Diagonal Unitary Circuit Composer |
