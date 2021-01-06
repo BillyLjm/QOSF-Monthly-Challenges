@@ -8,6 +8,7 @@ And the solutions are coded in `qosf-monthly-challenge-xx.ipynb` in the folders.
 There are also html copies of the jupyter notebooks for easier reference.  
 
 ## Topics  
-| Challenge      | Date     | Topic                             |
-|:--------------:|:--------:|:---------------------------------:|
-| `challenge-01` | Nov 2020 | Diagonal Unitary Circuit Composer |
+| Challenge                                                      | Date     | Topic                             |
+|:--------------------------------------------------------------:|:--------:|:---------------------------------:|
+| [`challenge-01`](challenge-01/qosf-monthly-challenge-01.ipynb) | Nov 2020 | Diagonal Unitary Circuit Composer |
+| [`challenge-02`](challenge-02/qosf-monthly-challenge-02.ipynb) | Dec 2020 | Minimum Hamming Distance          |
