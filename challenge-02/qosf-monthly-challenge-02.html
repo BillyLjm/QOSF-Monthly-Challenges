@@ -14276,6 +14276,15 @@ $$ 001001 \oplus 101100 = 100101 \xrightarrow[]{\; \text{count ones} \;} 011 \te
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Ammendment---31-Jan-2021">Ammendment - 31 Jan 2021<a class="anchor-link" href="#Ammendment---31-Jan-2021">&#182;</a></h2><p>I recently realised that the Grover's oracle implemented here has scaling runtime/gate depth <em>(unlike textbook examples)</em><br>
+Specifically, the <code>adder()</code> scales as $O(n)$ and <code>mcx(mode='v-chain')</code> seems to scale exponentially(???)<br>
+Thus, the runtimes discussed below has to take these into account and be multiplied by these scalings<br>
+This unfortunately means that the classical pairwise comparison is faster, for the specific question asked and oracle used</p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Naive-Algorithm:-Quantum-Classical">Naive Algorithm: Quantum-Classical<a class="anchor-link" href="#Naive-Algorithm:-Quantum-Classical">&#182;</a></h2><p>For a hybrid quantum-classical algorithm that works for all data sets:</p>
 <ol>
 <li>Check for duplicate bit strings (i.e. 0 Hamming distance) | $\Theta(m)$ classical runtime  </li>
